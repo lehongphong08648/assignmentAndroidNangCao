@@ -3,19 +3,16 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     android:columnCount="2"
     android:layout_row="3"
+    android:layout_gravity="center_horizontal"
     android:padding="@dimen/padding_margin"
-    android:alignmentMode="alignMargins"
-    android:columnOrderPreserved="false"
     tools:context=".MainActivity">
 
 <androidx.cardview.widget.CardView
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:layout_rowWeight="1"
-    android:layout_columnWeight="1"
     app:cardCornerRadius="@dimen/cardview_default_elevation"
     app:cardElevation="@dimen/dp12"
     android:layout_margin="@dimen/dp12"
@@ -50,8 +47,6 @@
         app:cardCornerRadius="@dimen/dp12"
         app:cardElevation="@dimen/dp12"
         android:layout_margin="@dimen/dp12"
-        android:layout_rowWeight="1"
-        android:layout_columnWeight="1"
         >
 
         <LinearLayout
@@ -84,8 +79,6 @@
         app:cardCornerRadius="@dimen/dp12"
         app:cardElevation="@dimen/dp12"
         android:layout_margin="@dimen/dp12"
-        android:layout_rowWeight="1"
-        android:layout_columnWeight="1"
         >
 
         <LinearLayout
@@ -97,11 +90,11 @@
 
             <ImageView
                 android:layout_width="@dimen/dp150"
-                android:layout_height="@dimen/dp150"
+                android:layout_height="160dp"
                 android:src="@drawable/ic_account_balance_black_24dp" />
             <TextView
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:textAppearance="?android:textAppearanceMedium"
                 android:text="Bảng Tin"
                 android:textColor="@color/colorPrimaryDark"
@@ -117,8 +110,6 @@
         app:cardCornerRadius="@dimen/dp12"
         app:cardElevation="@dimen/dp12"
         android:layout_margin="@dimen/dp12"
-        android:layout_rowWeight="1"
-        android:layout_columnWeight="1"
         >
 
         <LinearLayout
