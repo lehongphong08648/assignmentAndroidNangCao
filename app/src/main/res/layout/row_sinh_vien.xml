@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/stt_sv"
+        android:text="STT"
+        android:layout_weight="4"
+        android:gravity="center_horizontal"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_maSv"
+        android:text="Mã Sinh Viên"
+        android:layout_weight="3"
+        android:gravity="center_horizontal"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_tenSv"
+        android:text="Tên Sinh Viên"
+        android:layout_weight="2"
+        android:gravity="center_horizontal"
+        />
+
+</LinearLayout>

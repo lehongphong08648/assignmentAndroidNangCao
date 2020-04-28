@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/padding_margin"
+    android:paddingTop="@dimen/dp150"
+    android:paddingRight="@dimen/padding_margin"
+    android:paddingBottom="@dimen/dp12"
+    tools:context=".ui.SinhVien"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm Lớp"
+        android:background="@drawable/round"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:layout_marginBottom="@dimen/padding_margin"
+        android:backgroundTint="@color/colorAccent"
+        />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Danh Sách Lớp"
+        android:background="@drawable/round"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:layout_marginBottom="@dimen/padding_margin"
+        android:backgroundTint="@color/colorAccent"
+        />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quản Lý Sinh Viên"
+        android:background="@drawable/round"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:layout_marginBottom="@dimen/padding_margin"
+        android:backgroundTint="@color/colorAccent"
+        />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Danh Sách Quả Lý Sinh Viên"
+        android:background="@drawable/round"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:backgroundTint="@color/colorAccent"
+        android:layout_marginBottom="@dimen/padding_margin"
+        />
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm Ca Học"
+        android:background="@drawable/round"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:backgroundTint="@color/colorAccent"
+        android:layout_marginBottom="@dimen/padding_margin"
+        />
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Danh Sách Ca Học"
+        android:background="@drawable/round"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:backgroundTint="@color/colorAccent"
+        />
+
+
+</LinearLayout>

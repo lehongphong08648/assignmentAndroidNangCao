@@ -32,4 +32,9 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
     implementation "androidx.cardview:cardview:1.0.0"
+    implementation 'com.google.code.gson:gson:2.8.5'
+    implementation files('Enclosures')
+    implementation 'com.android.support:recyclerview-v7:29.0.0'
+    implementation 'com.facebook.android:facebook-android-sdk:[4,5)'
+    implementation 'com.google.android.gms:play-services-maps:17.0.0'
 }
